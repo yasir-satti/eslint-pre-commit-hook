@@ -1,9 +1,6 @@
-# Add Linting with Prettier and Pre-Commit hook to React project
+# Add Linting with Prettier and Pre-Commit hook to React project
 
-
-Reference Tutorial with a few tweaks... 
-
-
+A basic illustration to highlight the power of CI checks and their ability to make our lives easier through automation
 
 ## Start with Create React App using TypeScript template
 
@@ -197,3 +194,6 @@ Try to commit your changes
 The pre-commit hook will run and you should have linting error and test broken messages
 
 You need to fix them, then stage the changes again and try commit them. The pre-commit hook should run with no errors. Now you can push your changes.
+
+
+Reference: (Build a robust React app with Husky pre-commit hooks and GitHub Actions)[https://blog.logrocket.com/build-robust-react-app-husky-pre-commit-hooks-github-actions/]
